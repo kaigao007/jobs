@@ -1,1 +1,148 @@
 /*! Place your custom styles here */
+
+/* css for jobs-home.html */
+
+.hs-form label {
+  visibility: hidden;
+}
+
+.hs-form .hs-error-msgs label {
+  visibility: visible;
+  color: red;
+}
+
+body .formSameAsCareerPage .hs-button.primary, body input[type="submit"], body input[type="button"] {
+  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+  margin-top: 29px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding: 0px;
+  /* background: #c6c6c6; */
+}
+
+/* .element {
+  display: inline-block;
+  width: 600px;
+    height: 600px;
+  background: red;
+  background: url("../img/imi-mobile-bg-B.jpg");
+  opacity: 1;
+} */
+
+#imgDiv-jobs-home{
+  background: url("../img/imi-mobile-bg-B.jpg") ;
+  opacity: 1;
+}
+#imgDiv-jobs-list{
+  background: url("../img/imi-mobile-bg-A.jpg") ;
+  opacity: 1;
+}
+#imgDiv-rhonda{
+  background: url("../img/imi-mobile-bg-A.jpg") ;
+  opacity: 1;
+}
+
+@media (min-width: 500px) {
+  /* .element {
+    background: black;
+    background: url("../img/imi-rhonda-solutions.jpg");
+    opacity: 1;
+  } */
+
+  #imgDiv-jobs-home{
+    background: url("../img/imi-rhonda-solutions.jpg")!important;
+    opacity: 1;
+  }
+
+  #imgDiv-jobs-list{
+    background: url("../img/rhonda-find-job2.jpg") !important ;
+    opacity: 1;
+  }
+  #imgDiv-rhonda{
+    background: url("../img/imi-Artificial Intelligence-rhonda.jpg") !important ;
+    opacity: 1;
+  }
+}
+
+
+/* css for rhondaPage  */
+
+/* .rhondaPage .hs-form label {
+  visibility: visible;
+  font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+  font-size: 1em;
+} */
+
+body .rhondaPage .hs-button.primary, body input[type="submit"], body input[type="button"] {
+  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+  margin-top: 29px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding: 0px;
+  /* background: #c6c6c6; */
+}
+
+
+
+/* css for contact.html */
+.contactPage .hs-form label {
+  visibility: visible;
+  font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+  font-size: 1em;
+}
+
+.contactPage div.input{
+  margin-right:0;
+}
+
+.contactPage input.hs-button.primary.large{
+  width: 92.3%;
+}
+
+textarea#message-8c975b73-ecda-4075-bcee-c81ad08d7b74.hs-input{
+  width: 95%;
+}
+@media (min-width: 400px) {
+  textarea#message-8c975b73-ecda-4075-bcee-c81ad08d7b74.hs-input{
+    width: 100%;
+  }
+
+  .contactPage input.hs-button.primary.large{
+    width: 98%;
+  }
+
+}
+@media (min-width: 500px){
+  .contactPage input.hs-button.primary.large{
+    width: 30%;
+    /* float: right; */
+
+  }
+}
+
+
+/* .contactPage .hs-form-8c975b73-ecda-4075-bcee-c81ad08d7b74_ae151122-e2e4-465e-858f-ecf7f7b9e23c fieldset.form-columns-1 .hs-input {
+    width: 100%;
+} */
+
+body .contactPage .hs-button.primary, body input[type="submit"], body input[type="button"] {
+  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+  margin-top: 29px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding: 0px;
+  /* background: #c6c6c6; */
+}
+
+
+/* css for rhonda.html page  */
+/* mobile version background image overlay */
+/* #bg-img-overlay [data-overlay="1"]:before {
+    opacity: 0.01;
+} */
