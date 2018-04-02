@@ -52,16 +52,20 @@ body .formSameAsCareerPage .hs-button.primary, body input[type="submit"], body i
   } */
 
   #imgDiv-jobs-home{
-    background: url("../img/imi-rhonda-solutions.jpg")!important;
+    /* change to bigger background img */
+    /* background: url("../img/imi-rhonda-solutions.jpg")!important; */
+    background: url("../img-big/imi-rhonda-solutions.jpg")!important;
     opacity: 1;
   }
 
   #imgDiv-jobs-list{
-    background: url("../img/rhonda-find-job2.jpg") !important ;
+    /* background: url("../img/rhonda-find-job2.jpg") !important ; */
+    background: url("../img-big/imi-rhonda-cta.jpg") !important ;
     opacity: 1;
   }
   #imgDiv-rhonda{
-    background: url("../img/imi-Artificial Intelligence-rhonda.jpg") !important ;
+    /* change to bigger background img */
+    background: url("../img-big/imi-Artificial-Intelligence-rhonda.jpg") !important ;
     opacity: 1;
   }
 }
@@ -142,7 +146,39 @@ body .contactPage .hs-button.primary, body input[type="submit"], body input[type
 
 
 /* css for rhonda.html page  */
-/* mobile version background image overlay */
-/* #bg-img-overlay [data-overlay="1"]:before {
-    opacity: 0.01;
+
+/* show text */
+.rhondaPage.hover-element__reveal{
+  opacity: 1;
+  /* background-color: #8888886 */
+  /* background-color: #929292 */
+
+}
+
+/* change themes.css */
+.rhondaPage[data-overlay]:before {
+    background: #929292;
+
+}
+
+.rhondaPage.hover-element__reveal.myhover:hover{
+  /* opacity: 0.6 */
+  background-color: rgba(0, 0, 0, 0.28);
+  /* background: #888888; */
+
+}
+
+/* .rhondaPage.hover-element__reveal.myhover:hover .project-thumb__title{
+  font-size: 30px;
+  opacity: 1 !important;
+
+  background: #888888;
+
+} */
+
+
+/* .rhondaPage.hover-element__reveal.myhover:hover #myText{
+  font-size: 40px;
+  opacity: 1;
+
 } */
