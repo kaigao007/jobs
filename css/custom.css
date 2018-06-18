@@ -11,6 +11,13 @@
   color: red;
 }
 
+/* upload resume lable on home page */
+#label-file-15c57cdd-6765-4fae-9a9f-13d2a286f266, #label-how_did_you_hear_about_us_-15c57cdd-6765-4fae-9a9f-13d2a286f266{
+  margin-top: 10px;
+  visibility: visible;
+  font-size: 1rem;
+}
+
 body .formSameAsCareerPage .hs-button.primary, body input[type="submit"], body input[type="button"] {
   font-family: Helvetica, Arial, sans-serif;
   font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
@@ -92,7 +99,7 @@ body .formSameAsCareerPage .hs-button.primary, body input[type="submit"], body i
     right: 0;
     bottom: 0;
     /* background-image:url("../img-big/imi-Artificial-Intelligence-rhonda.jpg") !important; */
-    background-image:url("../img/imi-Artificial Intelligence-rhonda.jpg") !important;
+    background-image:url("../img/imi-Artificial Intelligence-rhonda1.jpg") !important;
     background-repeat: no-repeat;
     background-size: contain;
   }
